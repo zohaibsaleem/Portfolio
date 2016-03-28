@@ -1,0 +1,230 @@
+/* Main CSS*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+/*Video Background*/
+body,html
+{
+	font-family: 'Roboto',sans-serif;
+}
+.mainDiv
+{
+    position: relative;
+    min-height: 860px;
+}
+
+video
+{
+	height: 1040px;
+	position: fixed;
+    z-index: 9;
+    left:-200px;
+}
+
+.videoOverlay {
+    min-height: 960px;
+    background: url(../images/grid2.png);
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    min-width: 100%;
+}
+
+.person
+{
+	margin-top:10em;
+}
+
+.videoOverlay p
+{
+	margin: 0 0 10px;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 3px;
+    font-family: helvetica;
+}
+
+
+.videoOverlay h1
+{
+	font-size: 76px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+}
+
+/* End Video Background*/
+
+
+.aboutme
+{
+	background: white;
+    z-index: 12;
+    position: relative;
+    padding-left: 30px;
+}
+
+.aboutme h2
+{
+	font-size: 36px;
+	margin-bottom: 0px;
+}
+
+.aboutme p
+{
+	color: #858890;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.texting img
+{
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.texting h5
+{
+	margin-left: 55px;
+    margin-top: -25px;
+    font-size:16px;
+    color: #53a1ad; 
+}
+
+.texting h3
+{
+	margin-top:-15px;
+	color: #6c6c6c;
+}
+
+.responsive
+{
+	background: url(../images/bg-part-1.jpg);
+    z-index: 12;
+    position: relative;
+}
+
+.responsive p
+{
+	max-width: 870px;
+	color: white;
+	margin: 0 auto;
+	line-height: 26px;
+	padding-bottom:15px;
+}
+
+.skills
+{
+	background: white;
+    z-index: 14;
+    position: relative;
+}
+
+
+
+/*ISO TOPE*/
+
+	.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+
+/* ---- grid ---- */
+
+.grid {
+  /*background: #DDD;*/
+  height: 75%;
+  margin: 0 auto;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-item {
+  float: left;
+  width: 70px;
+  height: 50px;
+ 
+  border-color: hsla(0, 0%, 0%, 0.7);
+  background: #53a1ad;
+  border-radius: 0px 0px 5px 5px;
+  margin:0 5px;
+}
+
+.grid .inner
+  {      word-wrap: break-word;
+      font-size: 20px;
+      font-weight:bold;
+        box-sizing: border-box;
+        padding:15px;
+            white-space: nowrap;
+            -webkit-transform: rotate(90deg);
+  }
+
+
+.code { height: 100px; }
+.design { height: 150px; }
+.other { height: 200px; }
+
+
+.portfolioFilter a
+{
+      font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 9px 40px;
+    background: #53a1ad;
+    border-radius: 5px;
+    text-transform: lowercase;
+    display: inline-block;
+}
+
+.portfolioFilter .current
+{
+  background : #fc6f5c !important;
+}
+
+.grid
+{
+  color:white;
+}
+/* End ISOTOPE*/
+
+    
+    .education
+    {
+          background: white;
+    z-index: 14;
+    position: relative;
+    }
+  
+   
