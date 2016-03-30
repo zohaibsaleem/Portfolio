@@ -157,6 +157,7 @@ video
   /*background: #DDD;*/
   height: 75%;
   margin: 0 auto;
+      min-height: 270px;
 }
 
 /* clear fix */
@@ -222,9 +223,78 @@ video
     
     .education
     {
-          background: white;
-    z-index: 14;
+          background: #fafafa;
+    z-index: 15;
     position: relative;
     }
-  
-   
+
+
+   .circle
+   {   
+    width: 40px;
+    height: 40px;
+    border: 10px solid #53a1ad;
+    position: absolute;
+    display: block;
+    background: #fafafa;
+    top: 0;
+    left: 50%;
+    margin-left: -20px;
+    border-radius: 20px;
+  }
+
+  .line
+  {
+    border-left: 2px solid #53a1ad;
+    height: 200px;
+    width: 1px;
+    margin: 0 auto;
+    max-height: inherit;
+  }
+
+  .year
+  {
+           font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    line-height: 36px;
+    width: 110px;
+    color: #fff;
+    background: #53a1ad;
+    /* position: absolute; */
+    top: 47px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    /* display: block; */
+ 
+    margin-top: -150px;
+  }
+
+  .insider
+  {
+    background: white;
+    margin:20px;
+    border-radius:10px;
+    border:2px solid #D9DFE0 ;
+    padding: 20px;
+  }
+  .insider h3
+  {
+    font-family: 'PT Sans', sans-serif;
+    color: #6c6c6c;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .insider h3:hover
+  {
+    color: #0AD5F5;
+  }
+
+  .insider h5
+  {
+        color: #80838b;
+        font-family: PT Sans, sans-serif;
+       font-size: 16px;
+      line-height: 26px;
+  }
